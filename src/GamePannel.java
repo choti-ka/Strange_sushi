@@ -192,7 +192,6 @@ public class GamePannel extends JPanel { //to make GamePanel class panel **doesn
                 spawnCustomer();
             }
         } else {
-            currentCustomer.react(gameManager);
             if(gameManager.getDay() > 3) {
                 currentCustomer.react(gameManager, 50); // harder days = bigger penalty = mistake -> pay more
             } else {
