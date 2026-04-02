@@ -286,10 +286,10 @@ public class GamePannel extends JPanel { //to make GamePanel class panel **doesn
                 }
             }
 
-            if(Math.random() < 0.01) { // 1% chance every second
+            if(Math.random() < 0.005) { // 0.5% chance every second
                 SoundManager.playWhisper();
             }
-            if(Math.random() < 0.01) { // 1% chance every second
+            if(Math.random() < 0.005) { // 0.5% chance every second
                 SoundManager.playIseeyou();
             }
         });
