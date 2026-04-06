@@ -57,6 +57,11 @@ public class Ghost extends Customer  {
                 break;
         }
     }
+    @Override
+    public void react(GameManager gm, int penalty) {
+        // call the normal ghost reaction
+        this.react(gm);
+    }
     //-------------------OnLeave-------------------
     @Override
     public void onLeave(GameManager gm) {
